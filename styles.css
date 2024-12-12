@@ -1,23 +1,77 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+
 .header {
-    background-color: green;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+.header ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
 }
 
 .module-1 {
-    background-color: green;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
 
-.module-2 {
-    background-color: green;
+.module-1 h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.module-1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.module-2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.module-2 img {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
 
 .module-3 {
-    background-color: green;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+#quote-author {
+    font-size: 18px;
+    font-style: initial;
+    font-weight: 900;
 }
 
 .call-to-action {
-    background-color: green;
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
 
 .footer {
-    background-color: green;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
