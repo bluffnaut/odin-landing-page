@@ -6,13 +6,20 @@
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-color: #F9FAF8;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .header {
     color: #F9FAF8;
     background-color: #1F2937;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,28 +33,42 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .module-1 {
     color: #F9FAF8;
     background-color: #1F2937;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.module-1 > h2 {
+.module-1 h2 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.module-1 > p {
+.module-1 p {
     font-size: 18px;
     color: #E5E7EB;
+    padding-right: 75px;
 }
 
-.module-2 > h2 {
+.module-1 img {
+    padding-top: 50px;    
+}
+
+.module-2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 25px;
+}
+
+.module-2 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -62,7 +83,7 @@ button {
     gap: 15px;
 }
 
-.module-2 > img {
+.module-2 img {
     border: 3px solid #3882F6;
     border-radius: 15px;
 }
@@ -73,6 +94,7 @@ button {
     font-style: italic;
     color: #1F2937;
     background-color: #E5E7EB;
+    padding: 50px;
 }
 
 #quote-author {
@@ -86,6 +108,8 @@ button {
 .call-to-action {
     color: #F9FAF8;
     background-color: #3882F6;
+    margin: 50px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
