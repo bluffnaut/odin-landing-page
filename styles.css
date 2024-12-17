@@ -32,26 +32,37 @@ button {
 .module-1 {
     color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
 }
 
-.module-1 h2 {
+.module-1 > h2 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.module-1 p {
+.module-1 > p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.module-2 h2 {
+.module-2 > h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
-.module-2 img {
+.module-2-paragraphs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.module-2 > img {
     border: 3px solid #3882F6;
     border-radius: 15px;
 }
@@ -68,14 +79,21 @@ button {
     font-size: 18px;
     font-style: initial;
     font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .call-to-action {
     color: #F9FAF8;
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer {
     color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
