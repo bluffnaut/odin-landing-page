@@ -13,16 +13,20 @@ button {
 .header {
     color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h2 {
     font-size: 24px;
 }
 
-.header ul {
+.header-links {
     font-size: 18px;
     color: #E5E7EB;
-    list-style-type: none;
+    display: flex;
+    gap: 15px;
 }
 
 .module-1 {
